@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Connect 4", "Connect 4", "{C0F05251-0B0E-4586-850A-8CDE174B3E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connect 4", "Connect 4\Connect 4.csproj", "{EBCF9819-2697-4B43-BBCC-A74B8F20517A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBCF9819-2697-4B43-BBCC-A74B8F20517A} = {C0F05251-0B0E-4586-850A-8CDE174B3E08}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCF9819-2697-4B43-BBCC-A74B8F20517A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCF9819-2697-4B43-BBCC-A74B8F20517A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCF9819-2697-4B43-BBCC-A74B8F20517A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCF9819-2697-4B43-BBCC-A74B8F20517A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
