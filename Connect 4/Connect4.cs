@@ -4,7 +4,7 @@ namespace Connect_4;
 
 public class Connect4
 {  
-    private double limit_millis = 3000;
+    private double limit_millis = 1000;
     
     public int row = 6;
 
@@ -68,7 +68,7 @@ public class Connect4
         // set the total amount of possible moves
         possible_moves[7] = amount_moves;
 
-        // chose a random number from from the list of available columns
+        // chose a random number from the list of available columns
         if (amount_moves > 0) {
             random_move = remaining_moves[rand.Next() % amount_moves];
         }
@@ -206,7 +206,7 @@ public class Connect4
         for (int i = 0; i < column; i++) {
 
             // check if child node exists
-            if (!object.ReferenceEquals(null, node.child_nodes[i])) {
+            if (!ReferenceEquals(null, node.child_nodes[i])) {
 
                 // calculate ucb1 result
                 uct_result = (double) node.child_nodes[i].wins / (double) node.child_nodes[i].visits +
@@ -234,7 +234,7 @@ public class Connect4
         for (int i = 0; i < column; i++) {
 
             // check if child node exists
-            if (!object.ReferenceEquals(null, node.child_nodes[i])) {
+            if (!ReferenceEquals(null, node.child_nodes[i])) {
 
                 // save the best
                 if (node.child_nodes[i].visits > best_value) {
@@ -264,7 +264,7 @@ public class Connect4
             node.visits++;
 
             // select parent node
-            if (!object.ReferenceEquals(null, node.parent_node)) {
+            if (!ReferenceEquals(null, node.parent_node)) {
                 node = node.parent_node;
             } else {
                 break;
@@ -369,7 +369,6 @@ public class Connect4
 
         // print the total amount of simulations from this search
         Console.WriteLine($"Total amount of simulations MCTS: {root.visits}" );
-        //cout << "Total amount of simulations MCTS: " << root_pt->visits << endl;
 
         // get the best move of the root node, according to the final action selection criteria
         move = VisitsSelect(root);

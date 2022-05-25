@@ -4,16 +4,16 @@ public class Tree
 {
    public int amount_nodes = 0;
 
-   public Node[] nodes = new Node[400000];
+   public List<Node> nodes = new List<Node>();
 
    public void AddNode(Node node)
    {
-      nodes[amount_nodes] = node;
+      nodes.Add(node);
       amount_nodes++;
    }
 
    public void DeleteNodes()
    {
-      Array.Clear(nodes);
+      nodes.Clear();
    }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joris\\RiderProjects\\Connect 4\\Connect 4\\Connect 4.csproj": {}
+    "C:\\Users\\joris\\Documents\\Connect-4\\Connect 4\\Connect 4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joris\\RiderProjects\\Connect 4\\Connect 4\\Connect 4.csproj": {
+    "C:\\Users\\joris\\Documents\\Connect-4\\Connect 4\\Connect 4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joris\\RiderProjects\\Connect 4\\Connect 4\\Connect 4.csproj",
+        "projectUniqueName": "C:\\Users\\joris\\Documents\\Connect-4\\Connect 4\\Connect 4.csproj",
         "projectName": "Connect 4",
-        "projectPath": "C:\\Users\\joris\\RiderProjects\\Connect 4\\Connect 4\\Connect 4.csproj",
+        "projectPath": "C:\\Users\\joris\\Documents\\Connect-4\\Connect 4\\Connect 4.csproj",
         "packagesPath": "C:\\Users\\joris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joris\\RiderProjects\\Connect 4\\Connect 4\\obj\\",
+        "outputPath": "C:\\Users\\joris\\Documents\\Connect-4\\Connect 4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,8 +25,7 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net6.0": {
@@ -58,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

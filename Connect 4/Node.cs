@@ -18,7 +18,7 @@ public class Node
 
     public void SetPossibleMoves(int[] possible_moves)
     {
-        this.possible_moves = possible_moves;
+        Array.Copy(possible_moves, this.possible_moves, possible_moves.Length);
     }
 
     public void AddChild(int[] possible_moves, int player, int move)
@@ -26,6 +26,7 @@ public class Node
         Node child;
         child = new Node();
         child.SetPossibleMoves(possible_moves);
+        child.player = player;
 
         child_nodes[move] = child;
 
